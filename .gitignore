@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.env
+bin/
+work/
+vibe-home/logs/
+vibe-home/managed_config_cache.json
+vibe-home/trusted_folders.toml
+vibe-home/vibehistory
+vibe-home/cache.toml

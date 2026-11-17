@@ -1,0 +1,13 @@
+# Gesloten Vibe-config voor de coach-brug.
+#
+# Deze container is bewust kaal: geen skills, agents, plugins of MCP-servers
+# (er staat niets in deze VIBE_HOME), geen netwerk naar buiten behalve de
+# Mistral API (de container hangt alleen aan garmin-net), en geen sessie-
+# opslag: elk vraag-antwoord is eenmalig, net als voorheen met
+# --no-session-persistence.
+enable_update_checks = false
+enable_telemetry = false
+enable_connectors = false
+
+[session_logging]
+enabled = false
